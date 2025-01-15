@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.0" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  width="1185.4" height="305.2" x="-0.5" y="-304.7" bottomLeftOrigin="true"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="Layer_1">
+	<g>
+		<path fill="none" stroke="#7A7A7A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M63.5,30.8h6c0.3,0,0.7,0.1,1,0.2c0.3,0.1,0.6,0.3,0.8,0.5c0.2,0.2,0.4,0.5,0.5,0.8s0.2,0.6,0.2,1V43v9.7v9.7v9.7
+			c0,0.3-0.1,0.7-0.2,1s-0.3,0.6-0.5,0.8c-0.2,0.2-0.5,0.4-0.8,0.5c-0.3,0.1-0.6,0.2-1,0.2h-9.7H50h-9.7h-9.7c-0.3,0-0.7-0.1-1-0.2
+			c-0.3-0.1-0.6-0.3-0.8-0.5c-0.2-0.2-0.4-0.5-0.5-0.8s-0.2-0.6-0.2-1v-9.7v-9.7V43v-9.7c0-0.3,0.1-0.7,0.2-1s0.3-0.6,0.5-0.8
+			s0.5-0.4,0.8-0.5c0.3-0.1,0.6-0.2,1-0.2h6"/>
+		<g>
+			
+				<line fill="none" stroke="#7A7A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="50.1" y1="64.6" x2="43.1" y2="57.2"/>
+			
+				<line fill="none" stroke="#7A7A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="57.5" y1="57.6" x2="50.1" y2="64.6"/>
+			
+				<line fill="none" stroke="#7A7A7A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="50.3" y1="24.6" x2="50.1" y2="64.6"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_2" display="none">
+	
+		<rect x="0.8" display="inline" fill="none" stroke="#DBDBDB" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="100" height="100"/>
+</g>
+</svg>

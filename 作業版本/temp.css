@@ -1,0 +1,287 @@
+/*
+successfully add item window備用版本
+*/
+.successfullyAddItemWindow{
+    background-color: rgb(108, 183, 108);
+}
+.successfullyAddItemWindowInnerBox{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:5px;
+    width:36vw;
+    background-color: lightgreen;
+}
+.successfullyAddItemWindowInnerBox div{
+    font-size:2.5ex;
+}
+.successfullyAddItemTitle{
+    font-size:3ex;
+    text-align: center;
+    padding:15px 5px 5px 5px;
+}
+.successfullyAddItemImage{
+    margin:5px;
+    height:65px;
+}
+.successfullyAddItemWindowButtons{
+    display:flex;
+    justify-content: center;
+    padding:5px;
+}
+
+/*
+============================================================
+*/
+/*
+add item window可以的版本
+*/
+
+
+
+
+.addItemWindow{
+    background-color: rgb(108, 183, 108);
+}
+.addItemWindowInnerBox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5px;
+    width:36vw;
+    background-color: lightgreen;
+    font-size:2.5ex;
+}
+.addItemTitle{
+    font-size:3ex;
+    text-align: left;
+    padding:5px 5px 5px 5px;
+}
+.addItemWindowButtons{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+}
+.addItemInputBox{
+    display:block;
+    font-size:2.5ex;
+    width:22vw;
+}
+.addItemOuterBox{
+    display:flex;
+    justify-content: space-between;
+    width:35vw;
+}
+.addItemUnitBox{
+    width:22.3vw;
+    display:flex;
+    justify-content: flex-end;
+}
+.addItemUnit{
+    width:30px;
+    text-align: right;
+    align-items: center;
+}
+.addItemUnitOuterBox{
+    display:flex;
+    align-items: center;
+}
+
+/*
+successfully add item window可以的版本
+*/
+
+.successfullyAddItemWindow{
+    background-color: rgb(108, 183, 108);
+}
+.successfullyAddItemWindowInnerBox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5px;
+    width:36vw;
+    background-color: lightgreen;
+    font-size:2.5ex;
+}
+.successfullyAddItemTitle{
+    font-size:3ex;
+    text-align: center;
+    padding:5px 5px 5px 5px;
+}
+.successfullyAddItemWindowButtons{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+}
+.successfullyAddItemData{
+    display:block;
+    font-size:2.5ex;
+}
+.successfullyAddItemOuterBox{
+    display:flex;
+    justify-content: space-between;
+}
+.successfullyAddItemUnitBox{
+    display:flex;
+    justify-content: left;
+}
+.successfullyAddItemUnit{
+    width:40px;
+    text-align: right;
+    align-items: center;
+}
+.successfullyAddItemUnitOuterBox{
+    display:flex;
+    align-items: center;
+}
+.successfullyAddItemUnitData{
+    display:block;
+    font-size:
+    2.5ex;
+}
+.successfullyAddItemTextImageBox{
+    display:flex;
+    justify-content:flex-end;
+}
+.successfullyAddItemImage{
+    width:250px;
+    margin-left:10px;
+}
+.successfullyAddItemImageBox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.successfullyAddItemDataOuterBox{
+    display:flex;
+    align-items: center;
+}
+
+/*
+showPhoneData
+*/
+
+.showDataWindow{
+    background-color: rgb(108, 183, 108);
+}
+.showDataWindowInnerBox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5px;
+    width:36vw;
+    background-color: lightgreen;
+    font-size:2.5ex;
+}
+.showDataTitle{
+    font-size:3ex;
+    text-align: center;
+    padding:5px 5px 5px 5px;
+}
+.showDataWindowButtons{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+}
+.showDataData{
+    display:block;
+    font-size:2.5ex;
+}
+.showDataOuterBox{
+    display:flex;
+    justify-content: space-between;
+}
+.showDataUnitBox{
+    display:flex;
+    justify-content: left;
+}
+.showDataUnit{
+    width:40px;
+    text-align: right;
+    align-items: center;
+}
+.showDataUnitOuterBox{
+    display:flex;
+    align-items: center;
+}
+.showDataUnitData{
+    display:block;
+    font-size:
+    2.5ex;
+}
+.showDataTextImageBox{
+    display:flex;
+    justify-content:flex-end;
+}
+.showDataImage{
+    width:250px;
+    margin-left:10px;
+}
+.showDataImageBox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showDataDataOuterBox{
+    display:flex;
+    align-items: center;
+}
+
+
+/*
+Revise data
+*/
+
+.reviseItemWindow{
+    background-color: rgb(108, 183, 108);
+}
+.reviseItemWindowInnerBox{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5px;
+    width:36vw;
+    background-color: lightgreen;
+    font-size:2.5ex;
+}
+.reviseItemTitle{
+    font-size:3ex;
+    text-align: left;
+    padding:5px 5px 5px 5px;
+}
+.reviseItemHeaderTitle{
+    font-size:3ex;
+    text-align: center;
+    padding:5px 5px 5px 5px;
+}
+.reviseItemWindowButtons{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+}
+.reviseItemInputBox{
+    display:block;
+    font-size:2.5ex;
+    width:20vw;
+}
+.reviseItemOuterBox{
+    display:flex;
+    justify-content: space-between;
+    width:35vw;
+}
+.reviseItemUnitBox{
+    width:22.3vw;
+    display:flex;
+    justify-content: flex-end;
+}
+.reviseItemUnit{
+    width:30px;
+    text-align: right;
+    align-items: center;
+}
+.reviseItemUnitOuterBox{
+    display:flex;
+    align-items: center;
+}

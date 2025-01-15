@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Ibarra Real Nova', serif;
+  background-color: #f9f2f2;
+  font-size: 1.3rem;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  margin-bottom: 2rem auto;
+  width: 90vw;
+  margin: 2rem auto;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Archivo Narrow';
+}
+
+header .logo div {
+  padding: 0.5rem 0.8rem;
+  border: 0.2px solid rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -0.3rem 0.3rem 0 0 rgba(0, 0, 0, 0.2);
+          box-shadow: -0.3rem 0.3rem 0 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 1.8rem 1rem;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.articles {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(20rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 3rem;
+  min-width: 30rem;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+section.articles article {
+  border: 0.2px solid rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -0.3rem 0.3rem 0 0 rgba(0, 0, 0, 0.2);
+          box-shadow: -0.3rem 0.3rem 0 0 rgba(0, 0, 0, 0.2);
+}
+
+section.articles article img {
+  width: 100%;
+  height: auto;
+}
+
+.fixedBtn {
+  position: fixed;
+  left: 3rem;
+  top: 3rem;
+}
+
+.fixedBtn a {
+  text-decoration: none;
+}
+
+.fixedBtn a .box1 {
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: yellow;
+}
+
+.fixedBtn a .box1 i {
+  font-size: 3rem;
+  color: black;
+}
+
+.sideBtn {
+  width: 7.2rem;
+  display: none;
+  position: fixed;
+  background-color: #dbdbdb;
+  left: -4.9rem;
+  top: 3rem;
+  padding: 0.3rem;
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  border: 1px solid black;
+}
+
+.sideBtn .left {
+  font-size: 1.5rem;
+  padding-left: 0.1rem;
+  white-space: nowrap;
+  padding-top: 0.2rem;
+}
+
+.sideBtn .right {
+  padding-top: 0.3rem;
+  padding-left: 0.3rem;
+  font-size: 1.8rem;
+}
+
+.sideBtn.show {
+  -webkit-transform: translateX(4.9rem);
+          transform: translateX(4.9rem);
+}
+
+.fixedBtn2 {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 3rem;
+  width: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  header {
+    grid-template-columns: repeat(3, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr;
+  }
+  header .logo {
+    -ms-grid-column-align: start;
+        justify-self: start;
+  }
+}
+/*# sourceMappingURL=style.css.map */

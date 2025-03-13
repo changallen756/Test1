@@ -1,0 +1,54 @@
+body {
+  /* height: 90vh; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 2em;
+}
+#alignBox1 {
+  width: 50vw;
+  margin-bottom: 5vh;
+}
+dt {
+  margin: 1.5vw;
+}
+dt a {
+  color: darkblue;
+}
+.lxgw-wenkai-mono-tc-regular {
+  font-family: "LXGW WenKai Mono TC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fixedBtn {
+  position: fixed;
+  left: 6rem;
+  top: 3rem;
+}
+
+.fixedBtn a {
+  text-decoration: none;
+}
+
+.fixedBtn a .box1 {
+  margin-left: 0.2rem;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.fixedBtn a .box1 i {
+  font-size: 2rem;
+  color: black;
+}

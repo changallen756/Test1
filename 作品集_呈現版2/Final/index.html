@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="line1">
+        <div class="left">
+            <a href="#"><img src="./img/predator2.png" alt=""></a>
+            
+            <div class="line"></div>
+            <a href="#"><img src="./img/ConceptD2.png" alt=""></a>
+            
+            <div class="line"></div>
+            <a href="#"><img src="./img/Planet92.png" alt=""></a>
+            
+        </div>
+        <div class="space"></div>
+        <div class="right">
+            <a href="#"><div class="lang">
+                <img src="./img/flag.png" alt="">
+            </div>
+            <div class="text">
+                臺灣
+                
+            </div></a>
+            
+            <div class="line"></div>
+            <div>
+                <a href="#">註冊</a>
+                
+            </div>
+            <div class="line"></div>
+            <div>
+                <a href="#">登入</a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.svg" alt="">
+        </div>
+        <div class="space1"></div>
+        <div class="menu1">
+            <ul>
+                <li>
+                    <a href="#">ACER STORE</a>
+                </li>
+                <li onmouseover="menu1_onclick1();" onmouseout="menu1_onclick2();">
+                    <a href="#">家用</a>
+                </li>
+                <li onmouseover="menu2_onclick1();" onmouseout="menu2_onclick2();">
+                    <a href="#">商用</a>
+                </li>
+                <li onmouseover="menu3_onclick1();" onmouseout="menu3_onclick2();">
+                    <a href="#">服務支援</a>
+                </li>
+            </ul>
+        </div>
+        <div class="space2"></div>
+        <div class="search_icon">
+            <i class="fas fa-search fa-2x"></i>
+        </div>
+    </header>
+    <div class="search_bar">
+        <input type="text" placeholder="搜尋">
+        <i class="fas fa-times"></i>
+    </div>
+    <div class="rwd_header">
+        <div class="left"></div>
+        <div class="main">
+            <div class="box1">
+                <img src="./img/logo.svg" alt="">
+            </div>
+            <div class="box2" onclick="bars_onclick();">
+                <div class="rwd_header_icon1">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="rwd_header_icon2">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+    <div class="rwd_menu">
+        <div class="box">
+            <input type="text" placeholder="搜尋">
+        </div>
+       <div class="lists">
+           <ul class="ul_outer">
+               <li class="outer">ACER STORE
+                </li>
+                <div class="line"></div>
+               <li class="btn_1" onclick="toggle_detail1();">
+                    <div class="more_btn">
+                        <div class="text">
+                            家用
+                        </div>
+                        <div class="menu1_icon1">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="menu1_icon2">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </li>
+                <div class="line"></div>
+                <li class="outer detail1">
+                    <div class="more_detail">
+                        <ul class="ul_inner">
+                            <li class="title">產品</li>
+                            <li class="inner"><a href="#">筆記型電腦
+                                </a></li>
+                            <li class="inner"><a href="#">桌上型電腦
+                                </a></li>
+                            <li class="inner"><a href="#">顯示器
+                                </a></li>
+                            <li class="inner"><a href="#">投影機
+                                </a></li>
+                            <li class="inner"><a href="#">配件
+                                </a></li>
+                            <li class="inner"><a href="#">Virtual & Mixed Reality
+                                </a></li>
+                            <li class="inner"><a href="#">智慧攝影機
+                                </a></li>
+                            <li class="inner"><a href="#">智慧裝置
+                                </a></li>
+                            <li class="inner"><a href="#">飲料</a></li>
+                        </ul>
+                        <ul class="ul_inner">
+                            <li class="title">
+                                創作者
+                            </li>
+                            <li class="inner">
+                                <a href="#">ConceptD</a>
+                            </li>
+                        </ul>
+                        <ul class="ul_inner">
+                            <li class="title">
+                                GAMING
+                            </li>
+                            <li class="inner">
+                                <a href="#">
+                                    Predator
+                                </a>
+                            </li>
+                            <li class="inner">
+                                <a href="#">
+                                    贊助
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+               <li class="btn_2" onclick="toggle_detail2();">
+                <div class="more_btn">
+                    <div class="text">
+                        商用
+                    </div>
+                    <div class="menu2_icon1">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="menu2_icon2">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                </li>
+                <div class="line"></div>
+                <li class="outer detail2">
+                    <div class="more_detail">
+                        <ul class="ul_inner">
+                            <li class="title">產品</li>
+                            <li class="inner"><a href="#">筆記型電腦
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">桌上型電腦
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">平板電腦
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">工作站
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">顯示器
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">投影機
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">伺服器
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">Storage
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">配件</a></li>
+                        </ul>
+                        <ul class="ul_inner">
+                            <li class="title">
+                                創作者
+                            </li>
+                            <li class="inner">
+                                <a href="#">ConceptD</a>
+                            </li>
+                        </ul>
+                        <ul class="ul_inner">
+                            <li class="title">
+                                解決方案
+                            </li>
+                            <li class="inner">
+                                <a href="#">TravelMate
+                                    </a>
+                            </li>
+                            <li class="inner">
+                                <a href="#">Windows 10 專業版
+                                    </a>
+                            </li>
+                            <li class="inner">
+                                <a href="#">軍規
+                                    </a>
+                            </li>
+                            <li class="inner">
+                                <a href="#">Air Monitor Pro</a>
+                            </li>
+                        </ul>
+                        <ul class="ul_inner">
+                            <li class="title">
+                                教育
+                            </li>
+                            <li class="inner">
+                                <a href="#">部落格（英文）</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+               <li class="btn_3" onclick="toggle_detail3();">
+                <div class="more_btn">
+                <div class="text">
+                    服務支援
+                </div>
+                <div class="menu3_icon1">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="menu3_icon2">
+                    <i class="fas fa-times"></i>
+                </div>
+                </div>
+                </li>
+                <div class="line"></div>
+                <li class="outer detail3">
+                    <div class="more_detail">
+                        <ul class="ul_inner">
+                            <li class="title">服務支援</li>
+                            <li class="inner"><a href="#">客戶服務
+                                
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">保固資訊查詢
+                                
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">到府收送
+                                
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">Acer 答案集
+                                
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">經銷商報修
+                                
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">服務據點查詢
+                                
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">到場維修服務
+                                
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">維修進度查詢
+                                
+                                
+                                </a></li>
+                            <li class="inner"><a href="#">企業維護合約
+                                </a></li>
+                            <li class="inner"><a href="#">服務支援</a></li>
+                        </ul>
+                    </div>
+                </li>
+               <li class="outer">
+                   註冊
+                </li>
+                <div class="line"></div>
+               <li class="outer">登入</li>
+               <div class="line"></div>
+           </ul>
+       </div>
+       <div class="links">
+           <div class="align">
+                <a href="#">
+                <img src="./img/predator_4.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/ConceptD_4.png" alt="">
+                </a>
+                <a href="#">
+                    <img src="./img/Planet9_4.png" alt="">
+                </a>
+           </div>
+       </div>
+    </div>
+    <div class="menu2" onmouseover="menu1_onclick1();" onmouseout="menu1_onclick2();">
+        <div class="container">
+            <div class="content1">
+                <ul class="list1">
+                    <li><a href="#">產品
+                    </a></li>
+                    <li><a href="#">筆記型電腦
+                        </a></li>
+                    <li><a href="#">桌上型電腦
+                        </a></li>
+                    <li><a href="#">顯示器
+                        </a></li>
+                    <li><a href="#">投影機
+                        </a></li>
+                    <li><a href="#">配件
+                        </a></li>
+                    <li><a href="#">Virtual & Mixed Reality
+                        </a></li>
+                    <li><a href="#">智慧攝影機
+                        </a></li>
+                    <li><a href="#">智慧裝置
+                        </a></li>
+                    <li><a href="#">飲料
+                        </a></li>
+                </ul>
+                <div class="line"></div>
+                <div class="lists">
+                    <ul class="list2">
+                        <li><a href="#">創作者
+                        </a></li>
+                        <li><a href="#">ConceptD
+                        </a></li>
+                    </ul>
+                    <ul class="list3">
+                        <li><a href="#">Gaming
+                        </a></li>
+                        <li><a href="#">Predator
+                        </a></li>
+                        <li><a href="#">贊助
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="line"></div>
+                <div class="img1">
+                    <img src="./img/pic12.png" alt="">
+                    <div class="texts">
+                        <div class="text1">
+                        Aspire&nbsp
+                    </div>
+                    <div class="text2">
+                        7
+                    </div>
+                    </div>               
+                </div>
+                <div class="line"></div>
+                <div class="img2">
+                    <div class="title_container">
+                        <div class="title">
+                        新品上市
+                    </div>
+                    </div>
+                    <img src="./img/pic13.png" alt="">
+                    <div class="texts">
+                        <div class="text1">
+                            NITRO&nbsp
+                        </div>
+                        <div class="text2">
+                            50 AMD
+                        </div>
+                    </div> 
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="menu3" onmouseover="menu2_onclick1();" onmouseout="menu2_onclick2();">
+        <div class="container">
+                <div class="content1">
+                <ul class="list1">
+                    <li><a href="#">產品
+                        
+                        </a></li>
+                    <li><a href="#">筆記型電腦
+                        </a></li>
+                    <li><a href="#">桌上型電腦
+                        </a></li>
+                    <li><a href="#">平板電腦
+                        </a></li>
+                    <li><a href="#">工作站
+                        </a></li>
+                    <li><a href="#">顯示器
+                        </a></li>
+                    <li><a href="#">投影機
+                        </a></li>
+                    <li><a href="#">伺服器
+                        </a></li>
+                    <li><a href="#">Storage
+                        </a></li>
+                    <li><a href="#">配件
+                    </a></li>
+                </ul>
+                <div class="line"></div>
+                <div class="lists">
+                    <ul class="list2">
+                        <li><a href="#">創作者
+                        </a></li>
+                        <li><a href="#">ConceptD
+                        </a></li>
+                    <ul class="list3">
+                        <li><a href="#">
+                            解決方案
+                            </a></li>
+                        <li><a href="#">TravelMate
+                            </a></li>
+                        <li><a href="#">Windows 10 專業版
+                            </a></li>
+                        <li><a href="#">軍規
+                            </a></li>
+                        <li><a href="#">Air Monitor Pro
+                        </a></li>
+                    </ul>
+                    <ul class="list4">
+                        <li><a href="#">教育</a></li>
+                        <li><a href="#">部落格（英文）</a></li>
+                    </ul>
+                </div>
+                <div class="line"></div>
+                <div class="img1">
+                    <img src="./img/pic14.png" alt="">
+                    <div class="texts">
+                        <div class="text1">
+                        TravelMate&nbsp
+                    </div>
+                    <div class="text2">
+                        P6
+                    </div>
+                    </div>               
+                </div>
+                <div class="line"></div>
+                <div class="img2">
+                    <div class="title_container">
+                        <div class="title">
+                        新品上市
+                        </div>
+                    </div>
+                    <img src="./img/pic15.png" alt="">
+                    <div class="texts">
+                        <div class="arranger">
+                            <div class="text1">
+                                Acer Chromebook 314
+                            </div>
+                            <div class="text2">
+                                (CB314-2H)
+                            </div>
+                        </div>
+                        
+                    </div> 
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="menu4" onmouseover="menu3_onclick1();" onmouseout="menu3_onclick2();">
+        <div class="container">
+                <div class="content1">
+                <ul class="list1">
+                    <li><a href="#">服務支援
+                        
+                        
+                        </a></li>
+                    <li><a href="#">客戶服務
+                        
+                        </a></li>
+                    <li><a href="#">保固資訊查詢
+                        
+                        </a></li>
+                    <li><a href="#">Acer 答案集
+                        
+                        </a></li>
+                    <li><a href="#">到府收送
+                        
+                        </a></li>
+                    <li><a href="#">經銷商報修
+                        
+                        </a></li>
+                    <li><a href="#">服務據點查詢
+                        
+                        </a></li>
+                    <li><a href="#">到場維修服務
+                        
+                        </a></li>
+                    <li><a href="#">維修進度查詢
+                        
+                        </a></li>
+                    <li><a href="#">企業維護合約
+                    </a></li>
+                </ul>
+                <div class="line"></div>
+                <div class="details">
+                    <div class="title">
+                        取得ACER之協助！
+                    </div>
+                    <div class="detail">
+                        請提供您的 Acer 產品之識別資訊，我們將會提供給您下載連線、支援文章和其他線上支援資源，協助您的 Acer 產品發揮最大功用。
+                    </div>
+                    <div class="btn">
+                        服務支援
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="img1">
+                    <img src="./img/pic16.png" alt="">
+                    <div class="texts">
+                        驅動程式與說明手冊
+                    </div>               
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="line3"><div class="box">
+        <img src="./img/porsche_design.png" alt="">
+    </div></a>
+    <div class="line4">
+        <a href="#" class="container">
+            <img src="./img/pic1.jpg" alt="">
+            <img src="./img/pic1_more3.png" alt="" class="more">
+        </a>
+            <div class="description">
+                <div class="box1">
+                    <div class="box2">
+                        <h1>New Perspectives</h1>
+                        <div class="box3">
+                            <div class="p1">2021&nbsp全球記者會</div>
+                            <div class="p2">全球記者會</div>
+                        </div>
+                        <h3>錯過節目了嗎？</h3>
+                        <div class="btn"><a href="#">觀賞影片</a></div>
+                    </div>
+                </div>
+                
+        </div>  
+    </div>   
+    <div class="line5">
+        <a href="#" class="container2">
+            <img src="./img/pic2.jpg" alt="" class="original">
+            <img src="./img/pic2_more3.png" alt="" class="more">
+        </a>
+        <div class="box1">
+            <div class="box2">
+                <div class="box3">
+                    <h1>美好新紀元</h1>
+                    <div class="btn"><a href="#">探索</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line6">
+        <a href="#" class="container2">
+            <img src="./img/pic3.jpg" alt="" class="original">
+            <img src="./img/pic3_more2.png" alt="" class="more">
+            
+        </a>
+        <div class="box1">
+            <div class="upper"></div>
+            <div class="box2">
+                <div class="box3">
+                    <h1>無論何處都能辦公或學習</h1>
+                    <h2>透過遠端辦公與學習解決方案，無論是在家或外出皆能保持生產力。
+                    </h2>
+                    <div class="btn"><a href="#">進一步了解</a></div>
+                </div>
+            </div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+    <div class="test">
+        <div class="box1">
+            <div class="upper"></div>
+            <div class="box2">
+                <div class="box3">
+                    <h1>無論何處都能辦公或學習</h1>
+                    <h2>透過遠端辦公與學習解決方案，無論是在家或外出皆能保持生產力。
+                    </h2>
+                    <div class="btn"><a href="#">進一步了解</a></div>
+                </div>
+            </div>
+            <div class="bottom"></div>
+        </div>
+    </div>
+    <div class="showcase">
+        <!--<div class="left"></div>-->
+        <div class="case_1 pic1">
+            <div class="title_container">
+                <div class="title">
+                新品上市
+                </div>
+            </div>
+            <div class="img_box">
+                <img src="./img/pic4.png" alt="">
+            </div>
+            <div class="text">
+                Nitro&nbsp5
+            </div>
+        </div>
+        <div class="case_2 pic2">
+            <div class="title_container">
+                <div class="title">
+                新品上市
+                </div>
+            </div>
+            <div class="img_box">
+                <img src="./img/pic5.png" alt="">
+            </div>
+            <div class="arranger">
+                <div class="text1">
+                    Swift&nbsp
+                </div>
+                <div class="text2">
+                    7
+                </div>
+            </div>
+        </div>
+        <div class="case_2 pic3">
+            <div class="title_container">
+                <div class="title">
+                新品上市
+                </div>
+            </div>
+            <div class="img_box">
+                <img src="./img/pic6.png" alt="">
+            </div>
+            <div class="arranger">
+                <div class="text1">
+                    Swift&nbsp
+                </div>
+                <div class="text2">
+                    5
+                </div>
+            </div>
+        </div>
+        <div class="case_1 pic4">
+            <div class="title_container">
+                <div class="title">
+                新品上市
+                </div>
+            </div>
+            <div class="img_box">
+                <img src="./img/pic7.png" alt="">
+            </div>
+            <div class="text">
+                Nitro&nbsp50
+            </div>
+        </div>
+        <!--<div class="right"></div>-->
+    </div>
+    <div class="four_pics">
+        <div class="pic1 normal">
+            <img src="./img/pic8_5.png" alt="">
+            <div class="box1">
+                <div class="box2">
+                    <div class="texts">
+                        <div class="text1">
+                        電競椅、耳機、滑鼠、鍵盤等你拿
+                    </div>
+                    <div class="text2">
+                        <a href="#">深入探索</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pic2 normal">
+            <img src="./img/pic9_2.png" alt="">
+            <div class="box1">
+                <div class="box2">
+                    <div class="texts">
+                        <div class="text1">
+                        當代防護技術
+                        </div>
+                        <div class="text2">
+                            <a href="#">深入探索</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pic3 normal">
+            <img src="./img/pic10_2.png" alt="">
+            <div class="box1">
+                <div class="box2">
+                    <div class="texts">
+                        <div class="text1">
+                        Custom Service
+                        </div>
+                        <div class="text2">
+                            <a href="#">深入探索</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pic4 normal">
+            <img src="./img/pic11_2.png" alt="">
+            <div class="box1">
+                <div class="box2">
+                    <div class="texts">
+                        <div class="text1">
+                        選購指定 Predator掠奪者電競筆電及電競<br>桌機，登入送延保一年。
+                        </div>
+                        <div class="text2">
+                            <a href="#">深入探索</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info_lists">
+            <div class="left"></div>
+            <div class="list1 normal">
+                <ul>
+                    <li>關於ACER</li>
+                    <li>聯絡我們</li>
+                    <li>投資者關係</li>
+                    <li>新聞</li>
+                    <li>企業社會責任</li>
+                    <li>招兵買馬</li>
+                    <li>獎項</li>
+                </ul>
+            </div>
+            <div class="list2 normal">
+                <ul>
+                    <li>服務</li>
+                    <li>活動專區</li>
+                    <li>ACER ID</li>
+                    <li>驅動程式與說明手冊</li>
+                    <li>ACER 答案集</li>
+                </ul>
+            </div>
+            <div class="list3 normal">
+                <ul>
+                    <li>資源</li>
+                    <li>創新</li>
+                    <li>遠端解決方案</li>
+                    <li>產品註冊</li>
+                    <li>PREDATOR</li>
+                    <li>NEXT@ACER</li>
+                    <li>ACER DESIGN</li>
+                    <li>銷售地點</li>
+                    <li>軟體</li>
+                    <li>價格表</li>
+                    <li>智慧解決方案</li>
+                    <li>EARTHION</li>
+                </ul>
+            </div>
+            <div class="list4 normal">
+                <ul>
+                    <li>法律聲明</li>
+                    <li>隱私權聲明</li>
+                    <li>法律聲明</li>
+                    <li>宏碁股份有限公司營業規章</li>
+                    <li>其他法律資訊</li>
+                    <li>COOKIE 政策</li>
+                    <li>COOKIE 設定</li>
+                </ul>
+            </div>
+        <div class="right"></div>
+        </div>
+    <div class="info_lists_rwd">
+        <div class="lists">
+            <ul class="ul_outer">
+                <li class="outer info_btn_1" onclick="toggle_info_detail1();">
+                     <div class="more_btn">
+                         <div class="text">
+                             關於ACER
+                         </div>
+                         <div class="info1_icon1">
+                             <i class="fas fa-plus"></i>
+                         </div>
+                         <div class="info1_icon2">
+                             <i class="fas fa-times"></i>
+                         </div>
+                     </div>
+                 </li>
+                 <div class="line_outer">
+                     <div class="line"></div>
+                 </div>
+                 <li class="outer info_detail1">
+                     <div class="more_detail">
+                         <ul class="ul_inner">
+                             <li class="inner"><a href="#">聯絡我們
+                                
+                                 </a></li>
+                             <li class="inner"><a href="#">投資者關係
+                                
+                                 </a></li>
+                             <li class="inner"><a href="#">新聞
+                                
+                                 </a></li>
+                             <li class="inner"><a href="#">企業社會責任
+                                
+                                 </a></li>
+                             <li class="inner"><a href="#">招兵買馬
+                                
+                                 </a></li>
+                             <li class="inner"><a href="#">獎項
+                                 </a></li>
+                         </ul>
+                     </div>
+                 </li>
+                <li class="outer info_btn_2" onclick="toggle_info_detail2();">
+                 <div class="more_btn">
+                     <div class="text">
+                         商用
+                     </div>
+                     <div class="info2_icon1">
+                         <i class="fas fa-plus"></i>
+                     </div>
+                     <div class="info2_icon2">
+                         <i class="fas fa-times"></i>
+                     </div>
+                 </div>
+                 </li>
+                 <div class="line_outer">
+                     <div class="line"></div>
+                 </div>
+                 <li class="outer info_detail2">
+                     <div class="more_detail">
+                         <ul class="ul_inner">
+                             <li class="inner"><a href="#">活動專區
+                                
+                                 
+                                 </a></li>
+                             <li class="inner"><a href="#">ACER ID
+                                
+                                 
+                                 </a></li>
+                             <li class="inner"><a href="#">驅動程式與說明手冊
+                                
+                                 
+                                 </a></li>
+                             <li class="inner"><a href="#">ACER 答案集
+                                 
+                                 </a></li>
+                         </ul>
+                     </div>
+                 </li>
+                <li class="outer info_btn_3" onclick="toggle_info_detail3();">
+                 <div class="more_btn">
+                 <div class="text">
+                     服務支援
+                 </div>
+                 <div class="info3_icon1">
+                     <i class="fas fa-plus"></i>
+                 </div>
+                 <div class="info3_icon2">
+                     <i class="fas fa-times"></i>
+                 </div>
+                 </div>
+                 </li>
+                 <div class="line_outer">
+                     <div class="line"></div>
+                 </div>
+                 <li class="outer info_detail3">
+                     <div class="more_detail">
+                         <ul class="ul_inner">
+                             <li class="inner"><a href="#">創新
+                                
+                                 </a></li>
+                             <li class="inner"><a href="#">遠端解決方案
+                                
+                                 </a></li>
+                             <li class="inner"><a href="#">產品註冊
+                                
+                                 
+                                 
+                                 </a></li>
+                             <li class="inner"><a href="#">PREDATOR
+                                
+                                 
+                                 
+                                 </a></li>
+                             <li class="inner"><a href="#">NEXT@ACER
+                                
+                                 
+                                 
+                                 </a></li>
+                             <li class="inner"><a href="#">ACER DESIGN
+                                
+                                 
+                                 
+                                 </a></li>
+                             <li class="inner"><a href="#">銷售地點
+                                
+                                 
+                                 </a></li>
+                             <li class="inner"><a href="#">軟體
+                                
+                                 
+                                 
+                                 
+                                 </a></li>
+                             <li class="inner"><a href="#">價格表
+                                
+                                 </a></li>
+                             <li class="inner"><a href="#">智慧解決方案
+                                </a></li>
+                             <li class="inner"><a href="#">EARTHION</a></li>
+                         </ul>
+                     </div>
+                 </li>
+                 <li class="outer info_btn_4" onclick="toggle_info_detail4();">
+                    <div class="more_btn">
+                    <div class="text">
+                        法律聲明
+                    </div>
+                    <div class="info4_icon1">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="info4_icon2">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    </div>
+                    </li>
+                    <div class="line_outer">
+                        <div class="line"></div>
+                    </div>
+                    <li class="outer info_detail4">
+                        <div class="more_detail">
+                            <ul class="ul_inner">
+                                <li class="inner"><a href="#">隱私權聲明
+                                    </a></li>
+                                <li class="inner"><a href="#">法律聲明
+                                    </a></li>
+                                <li class="inner"><a href="#">宏碁股份有限公司營業規章
+                                    </a></li>
+                                <li class="inner"><a href="#">其他法律資訊
+                                    </a></li>
+                                <li class="inner"><a href="#">COOKIE 政策
+                                    </a></li>
+                                <li class="inner"><a href="#">COOKIE 設定</a></li>
+                            </ul>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+    </div>
+        </div>
+    <div class="footer">
+        <div class="container">
+            <div class="brands">
+                <div class="left"></div>
+                <div class="align">
+                    <img src="./img/acer3.png" alt="" class="p2">
+                </div>
+                <div class="align">
+                    <img src="./img/predator3.png" alt="" class="p3">
+                </div>
+                <div class="align">
+                    <img src="./img/ConceptD3.png" alt="" class="p3">
+                </div>
+                <div class="align">
+                    <img src="./img/Planet93.png" alt="" class="p3">
+                </div>
+                <div class="right"></div>
+            </div>
+            <div class="line"></div>
+            <div class="links">
+                <div class="left"></div>
+                <div class="middle">
+                    <div class="icons">
+                        <div class="boxs">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="boxs">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="boxs">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <div class="boxs">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        
+                    </div>
+                    <div class="copyrights">
+                        <div class="text1">
+                            © 2021 Acer Inc. 
+                        </div>
+                        <div class="text2">
+                            Intel、Intel 標誌、Intel Inside、Intel Core 及 Core Inside 為 Intel Corporation 或其子公司在美國及/或其他國家/地區的商標。
+                        </div>
+                    </div>
+                    <div class="lang">
+                        臺灣
+                    </div>
+                </div>
+                <div class="right"></div>
+            </div>
+        </div>
+    </div>
+    <div class="fixedBtn">
+        <a href="../index.html">
+            <div class="box1">
+                <i class="fas fa-arrow-alt-circle-left"></i>
+            </div>
+        </a>
+    </div>
+    <div class="back">
+        <div class="detail_item1">
+            <ul>
+                <li><a href="#">Honda Taiwan</a></li>
+                <li><a href="#">Global Honda</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

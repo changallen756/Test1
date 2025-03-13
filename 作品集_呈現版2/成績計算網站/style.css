@@ -1,0 +1,375 @@
+:root {
+  --borderRadiusOfShowingPicutre: 0;
+  --masksAnimationDuration: 2s;
+}
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+html {
+  position: relative;
+}
+body {
+  background-color: gainsboro;
+}
+#showPicture {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+  width: 100%;
+}
+#showPicture #imgBox img {
+  border-radius: var(--borderRadiusOfShowingPicture);
+  width: 70vw;
+  /* transform: scale(1.2); */
+}
+.masks {
+  position: absolute;
+  background-color: black;
+  /* border: 1px solid red; */
+}
+#mask1 {
+  border-radius: var(--borderRadiusOfShowingPicutre)
+    var(--borderRadiusOfShowingPicutre) 0 0;
+}
+#mask2 {
+  border-radius: 0 0 var(--borderRadiusOfShowingPicutre)
+    var(--borderRadiusOfShowingPicutre);
+}
+.animationForGettingValue {
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 2s;
+}
+#imgBox {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 35vw;
+  /* border: 1px solid red; */
+  border-radius: var(--borderRadiusOfShowingPicture);
+}
+.zoomInAnimation {
+  transform: scale(1.6);
+  transition: transform 0.85s;
+  /* transition-timing-function: linear; */
+}
+#gradientPicture {
+  position: absolute;
+  z-index: -1;
+  top: -5vh;
+  left: -105vw;
+  width: 105vw;
+  height: 105vh;
+  /* background-color: green; */
+  background: linear-gradient(90deg, white 0%, black 100%);
+}
+.goRightAnimation {
+  transform: translateX(100vw);
+  transition: transform 0.85s ease-in-out;
+}
+.toWhiteAnimation {
+  background-color: aliceblue;
+  /* opacity: 0; */
+  /* transition: opacity 0.5s; */
+}
+.doNotShow {
+  transition: display 1s;
+  display: none;
+  /* position: absolute; */
+  /* background-color: rgb(30, 30, 30); */
+  /* opacity: 0;
+  transition: opacity 0.2s; */
+}
+/* 常駐選單開始 */
+#residentMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 0 8px 0 black;
+}
+#residentMenu .leftBox {
+  /* width: calc(350px- (1279px - 98vw) * 0); */
+  width: 350px;
+  flex-shrink: 0.001;
+  display: flex;
+  padding-left: 12px;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+#residentMenu .rightBox {
+  flex-grow: 1;
+  flex-shrink: 1;
+  /* border: 1px solid red; */
+}
+#residentMenu .leftBox .button {
+  padding: min(18px, max(1.17vw, 7.5px)) min(4.6px, max(0.3vw, 1.92px));
+  color: rgb(228, 226, 226);
+  font-size: min(20px, max(1.2vw, 14px));
+  /* font-size: 14px; */
+}
+#residentMenu .leftBox .button:hover {
+  cursor: pointer;
+  color: yellow;
+}
+#main {
+  position: relative;
+}
+#main .horizontalAlignBox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#main .horizontalAlignBox1 .verticalAlignBox2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#main .horizontalAlignBox1 .verticalAlignBox2 .title {
+  color: rgb(247, 247, 247);
+  font-size: max(4vw, 25px);
+  font-weight: bold;
+  padding: max(2vw, 10px) 0;
+}
+#main .horizontalAlignBox1 .verticalAlignBox2 .horizontalAlignBox2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min(122.78px, max(10vw, 51.16px));
+}
+#main .horizontalAlignBox1 .verticalAlignBox2 .horizontalAlignBox2 .button {
+  border: 1px solid black;
+  background-color: rgb(232, 232, 232);
+  color: black;
+  padding: min(8.29px, max(0.54vw, 3.45px));
+  margin: 0 min(3.07px, max(0.2vw, 1.28px));
+  font-size: min(17.96px, max(1.17vw, 7.48px));
+  text-wrap: nowrap;
+}
+/* main區域開始 */
+/* #main .horizontalAlignBox1 .verticalAlignBox1 {
+  display: flex;
+  height: 96vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+} */
+#main
+  .horizontalAlignBox1
+  .verticalAlignBox2
+  .horizontalAlignBox2
+  .button:hover {
+  cursor: pointer;
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 #inputBoxes {
+  /* border: 1px solid red; */
+  /* min-height: 18vh; */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .inputArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .inputArea:first-child {
+  margin-top: min(30.7px, max(2vw, 12.79px));
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .inputArea > * {
+  margin-top: max(0.39vw, 2.5px);
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .inputArea .inputBox {
+  background-color: rgb(238, 236, 236);
+  /* padding: 0.5rem; */
+  margin-right: min(6.91px, max(0.45vw, 2.88px));
+  margin-left: min(6.91px, max(0.45vw, 2.88px));
+  border-radius: max(0.156vw, 0.1px);
+  padding: 0.54vw 0.86vw;
+  width: min(214.87px, max(14vw, 89.53px));
+  border: 0;
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .inputArea .credits {
+  margin-right: min(6.91px, max(0.45vw, 2.88px));
+  margin-left: min(6.91px, max(0.45vw, 2.88px));
+  border-radius: max(0.156vw, 0.1px);
+  padding: 0.54vw 0.86vw;
+  width: min(143.96px, max(9.38vw, 59.99px));
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .inputArea .categoryBox {
+  position: relative;
+  /* border: 1px solid red; */
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .inputArea #triangleCharacter {
+  position: absolute;
+  top: min(9.59px, max(0.63vw, 4px));
+  right: min(19.2px, max(1.25vw, 8px));
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .inputArea > div {
+  margin-bottom: max(0.156vw, 0.1px);
+}
+/* #main .horizontalAlignBox1 .verticalAlignBox1 .inputArea > * {
+  border: 1px solid red;
+} */
+#main .horizontalAlignBox1 .verticalAlignBox1 .inputArea > input {
+  margin-bottom: max(0.156vw, 0.1px);
+  /* border: 1px solid red; */
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .inputArea .scores {
+  color: black;
+  border-radius: 50%;
+  background-color: rgb(82, 81, 81);
+  width: min(66px, max(4.3vw, 27.5px));
+  height: min(66px, max(4.3vw, 27.5px));
+  margin: max(0.39vw, 2.5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: min(30px, max(1.95vw, 12.5px));
+  color: white;
+}
+.trashCan {
+  padding: min(1.53px, max(0.1vw, 0.64px));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trashCan:hover {
+  cursor: pointer;
+}
+.trashCan img {
+  width: min(46.04px, max(3vw, 19.18px));
+  height: min(46.04px, max(3vw, 19.18px));
+}
+/* function button開始 */
+.functionButtonHorizontalAlignBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: min(30.7px, max(2vw, 12.79px));
+}
+.functionButtonHorizontalAlignBox img {
+  width: min(46.04px, max(3vw, 19.18px));
+  height: min(46.04px, max(3vw, 19.18px));
+}
+.functionButtonHorizontalAlignBox img:hover {
+  cursor: pointer;
+}
+.showScore {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: min(15.05px, max(2vh, 6.27px));
+}
+.showScore .circle {
+  width: min(168.83px, max(11vw, 70.35px));
+  height: min(168.83px, max(11vw, 70.35px));
+  border-radius: 50%;
+  background-color: rgb(30, 30, 30);
+  border: 2px solid green;
+}
+.showScore .circle .title {
+  color: white;
+  padding: min(7.67px, max(0.5vw, 3.2px)) min(15.35px, max(1vw, 6.4px)) 0
+    min(15.35px, max(1vw, 6.4px));
+  text-align: center;
+  font-size: min(19.2px, max(1.25vw, 8px));
+  line-height: min(21.6px, max(1.41vw, 9px));
+  font-weight: 200;
+}
+.showScore .circle .gpaScore {
+  color: white;
+  padding: min(20.72px, max(1.35vw, 8.63px)) min(15.35px, max(1vw, 6.4px)) 0
+    min(15.35px, max(1vw, 6.4px));
+  text-align: center;
+  font-size: min(50.4px, max(3.28vw, 21px));
+  line-height: min(21.6px, max(1.41vw, 9px));
+  font-weight: 800;
+}
+/* myList開始 */
+.myList {
+  /* margin-top: max(0.39vw, 2.5px); */
+  position: absolute;
+  width: min(396px, max(25.8vw, 165px));
+  left: min(6.91px, max(0.45vw, 2.88px));
+  transform: translate(-2px, 2px);
+  background-color: aliceblue;
+  height: 50vh;
+  overflow-y: scroll;
+  border-radius: min(6px, max(0.39vw, 2.5px));
+  z-index: 2;
+}
+.myList .listItem {
+  margin: 2px;
+  padding: min(9.6px, max(0.63vw, 4px)) min(19.2px, max(1.25vw, 8px));
+  border: 1px solid rgba(144, 166, 176, 0);
+  background-color: rgba(221, 240, 250, 0);
+  box-shadow: rgba(118, 143, 166, 0);
+  border-radius: min(6px, max(0.39vw, 2.5px));
+}
+.myList .listItem:hover {
+  border: 1px solid rgb(144, 166, 176);
+  background-color: rgb(221, 240, 250);
+  box-shadow: rgb(118, 143, 166);
+  border-radius: min(6px, max(0.39vw, 2.5px));
+}
+.myList .title {
+  font-weight: 600;
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .showUpAnimation {
+  animation-name: animation1;
+  animation-fill-mode: backwards;
+  animation-iteration-count: 1;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+}
+#main .horizontalAlignBox1 .verticalAlignBox1 .disappearAnimation {
+  animation-name: animation2;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes animation1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes animation2 {
+  0% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+.hide {
+  display: none;
+}
+.arrowForList {
+  position: absolute;
+}
+.arrowForListImage {
+  width: 10px;
+  height: 10px;
+}

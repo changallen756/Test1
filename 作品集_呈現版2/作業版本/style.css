@@ -1,0 +1,447 @@
+/*
+div{
+    border:1px solid green;
+}
+*/
+
+.addItemMainTitle {
+  text-align: center;
+  font-size: 3ex;
+  padding: 5px 5px 5px 5px;
+}
+/*.contentBox{
+    position:relative;
+    top:-750px;
+}
+.cursorBoxesOuterBox{
+    display:flex;
+    justify-content: center;
+}
+.emptyBox{
+    height:30px;
+}
+.cursorBoxes{\
+    height:750px;
+    width:691px;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    top:88px;
+}
+.cursorBox{
+    height:198px;
+    margin:10px;
+}*/
+.headerOuterBox {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 576px;
+}
+.headerLeftBox {
+  font-size: 3.6ex;
+}
+.headerMiddleBox {
+  font-size: 3.6ex;
+}
+.headerRightBoxOrigin {
+  font-size: 3.6ex;
+}
+.buttons {
+  display: inline;
+}
+.addItemButtonVirtual {
+  visibility: hidden;
+}
+.searchButtonVirtual {
+  visibility: hidden;
+}
+.closeFunctionVirtual {
+  visibility: hidden;
+}
+.containerOuterBox {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.containerInnerBox {
+  display: flex;
+  justify-content: space-around;
+  height: 108px;
+  margin: 15px;
+  background-color: rgb(229, 212, 186);
+}
+.container {
+  border: 2px solid blue;
+  height: 810px;
+  width: 700px;
+}
+.numberOuterBox {
+  display: flex;
+  align-items: center;
+}
+.number {
+  padding: 10px;
+  font-size: 3ex;
+}
+.brandOuterBox {
+  display: flex;
+  align-items: center;
+}
+.brand {
+  padding: 10px;
+  font-size: 3ex;
+}
+.phoneNameOuterBox {
+  display: flex;
+  align-items: center;
+}
+.phoneName {
+  padding: 10px;
+  font-size: 3ex;
+}
+.phoneImage {
+  margin: 5px;
+}
+.title {
+  padding: 5px;
+  background-color: lightblue;
+}
+.titleInnerBox {
+  display: flex;
+  justify-content: space-around;
+}
+.titleInnerBox div {
+  margin: 5px;
+  font-size: 3ex;
+}
+.absoluteBox {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+}
+.absoluteBoxInnerBox {
+  position: relative;
+  width: 672px;
+}
+.floatWindowOuterBox {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 190px;
+  left: -14.5px;
+}
+.containerInnerBox:hover {
+  cursor: pointer;
+}
+/*
+頁面控制
+*/
+/*.reviseItemWindow{
+    display:none;
+}
+.showDataWindow{
+    display:none;
+}
+.successfullyAddItemWindow{
+    display:none;
+}
+.addItemWindow{
+    display:none;
+}*/
+/*
+add item window可以的版本
+*/
+
+.addItemWindow {
+  background-color: rgb(108, 183, 108);
+}
+.addItemWindowInnerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  width: 691.2px;
+  background-color: lightgreen;
+  font-size: 2.5ex;
+}
+.addItemTitle {
+  font-size: 3ex;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+}
+.addItemWindowButtons {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.addItemInputBox {
+  display: block;
+  font-size: 2.5ex;
+  width: 422px;
+}
+.addItemOuterBox {
+  display: flex;
+  justify-content: space-between;
+  width: 672px;
+}
+.addItemUnitBox {
+  width: 428px;
+  display: flex;
+  justify-content: flex-end;
+}
+.addItemUnit {
+  width: 30px;
+  text-align: right;
+  align-items: center;
+}
+.addItemUnitOuterBox {
+  display: flex;
+  align-items: center;
+}
+
+/*
+successfully add item window可以的版本
+*/
+
+.successfullyAddItemWindow {
+  background-color: rgb(108, 183, 108);
+}
+.successfullyAddItemWindowInnerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  width: 691.2px;
+  background-color: lightgreen;
+  font-size: 2.5ex;
+}
+.successfullyAddItemTitle {
+  font-size: 3ex;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+.successfullyAddItemWindowButtons {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.successfullyAddItemData {
+  display: block;
+  font-size: 2.5ex;
+}
+.successfullyAddItemOuterBox {
+  display: flex;
+  justify-content: space-between;
+}
+.successfullyAddItemUnitBox {
+  display: flex;
+  justify-content: left;
+}
+.successfullyAddItemUnit {
+  width: 40px;
+  text-align: right;
+  align-items: center;
+}
+.successfullyAddItemUnitOuterBox {
+  display: flex;
+  align-items: center;
+}
+.successfullyAddItemUnitData {
+  display: block;
+  font-size: 2.5ex;
+}
+.successfullyAddItemTextImageBox {
+  display: flex;
+  justify-content: flex-end;
+}
+.successfullyAddItemImage {
+  width: 250px;
+  margin-left: 10px;
+}
+.successfullyAddItemImageBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.successfullyAddItemDataOuterBox {
+  display: flex;
+  align-items: center;
+}
+
+/*
+showPhoneData
+*/
+
+.showDataWindow {
+  background-color: rgb(108, 183, 108);
+}
+.showDataWindowInnerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  width: 691.2px;
+  background-color: lightgreen;
+  font-size: 2.5ex;
+}
+.showDataTitle {
+  font-size: 3ex;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+.showDataWindowButtons {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.showDataData {
+  display: block;
+  font-size: 2.5ex;
+}
+.showDataOuterBox {
+  display: flex;
+  justify-content: space-between;
+}
+.showDataUnitBox {
+  display: flex;
+  justify-content: left;
+}
+.showDataUnit {
+  width: 40px;
+  text-align: right;
+  align-items: center;
+}
+.showDataUnitOuterBox {
+  display: flex;
+  align-items: center;
+}
+.showDataUnitData {
+  display: block;
+  font-size: 2.5ex;
+}
+.showDataTextImageBox {
+  display: flex;
+  justify-content: flex-end;
+}
+.showDataImage {
+  width: 250px;
+  margin-left: 10px;
+}
+.showDataImageBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.showDataDataOuterBox {
+  display: flex;
+  align-items: center;
+}
+
+/*
+Revise data
+*/
+.searchItemWindow {
+  background-color: rgb(108, 183, 108);
+}
+.searchItemWindowInnerBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  width: 691.2px;
+  background-color: lightgreen;
+  font-size: 2.5ex;
+}
+.searchItemTitle {
+  font-size: 3ex;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+}
+.searchItemHeaderTitle {
+  font-size: 3ex;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+.searchItemWindowButtons {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.searchItemInputBox {
+  display: block;
+  font-size: 2.5ex;
+  width: 384px;
+}
+.searchItemOuterBox {
+  display: flex;
+  justify-content: space-between;
+  width: 672px;
+}
+.searchItemUnitBox {
+  width: 428px;
+  display: flex;
+  justify-content: flex-end;
+}
+.searchItemUnit {
+  width: 30px;
+  text-align: right;
+  align-items: center;
+}
+.searchItemUnitOuterBox {
+  display: flex;
+  align-items: center;
+}
+.changePageOuterBox {
+  display: flex;
+  justify-content: center;
+}
+.changePage {
+  width: 614px;
+  display: flex;
+  justify-content: space-around;
+}
+.changePage button {
+  font-size: 2ex;
+  width: 307px;
+}
+.fixedBtn {
+  position: fixed;
+  left: 6rem;
+  top: 3rem;
+}
+
+.fixedBtn a {
+  text-decoration: none;
+}
+
+.fixedBtn a .box1 {
+  margin-left: 0.2rem;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: yellow;
+}
+
+.fixedBtn a .box1 i {
+  font-size: 2rem;
+  color: black;
+}
